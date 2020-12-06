@@ -9,7 +9,7 @@ def get_args():
     parser.add_argument('--alg', type=str, default='res', choices=['normal', 'vgg', 'res', 'wrn'])
     parser.add_argument('--log_path', type=str, default='logs')
     parser.add_argument('--no-cuda', action='store_true')
-    parser.add_argument('--batch_size', type=int, default=128)
+    parser.add_argument('--batch_size', type=int, default=64)
     parser.add_argument('--num_epochs', type=int, default=200)
     parser.add_argument('--ssl', action='store_true')
     parser.add_argument('--percentage', type=int, default=10)
