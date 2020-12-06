@@ -10,7 +10,6 @@ import scipy.io
 
 from torchvision import datasets, transforms
 
-#from cub200 import Give
 from models import OneLayerMLP 
 from data import get_data
 from vgg import VGG16_conv
