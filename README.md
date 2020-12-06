@@ -25,15 +25,10 @@ This codebase has experiments for image classification and transfer learning.
 If you use this codebase or find this repository helpful then please cite our paper:
 ```
 @article{sinha2020curriculum,
-
   title={Curriculum By Smoothing},
-
   author={Sinha, Samarth and Garg, Animesh and Larochelle, Hugo},
-
   journal={Advances in Neural Information Processing Systems},
-
   volume={33},
-
   year={2020}
 }
 ```
